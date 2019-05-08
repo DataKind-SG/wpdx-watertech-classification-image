@@ -12,7 +12,8 @@ Except for Dockerfile which should have capital D.
 1. Submit an issue with the model details (i.e. what approach does the model use? simple CNN?)
 2. Follow the Pull Request Process    
     Note the following when creating your model:    
-    a. Follow the folder structure of sample_model_1    
+    a. The model folder should be under wpdx-watertech-classification-image/models/   
+    Follow the folder structure of [sample_model_1](https://github.com/DataKind-SG/wpdx-watertech-classification-image/tree/master/models/sample_model_1)   s
     b. Have 1 script that generates/exports the model to [onnx](https://onnx.ai) format.    
     c. Create a Dockerfile which can run your model generation script    
     d. Use the data from ./../data folder for your model training/testing 
