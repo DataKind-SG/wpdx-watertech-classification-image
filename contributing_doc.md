@@ -4,6 +4,20 @@ When contributing to this repository, please first discuss the change you wish t
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
+## Coding Practice
+- Please use lowercase [snake_case](https://en.wikipedia.org/wiki/Snake_case) for folder names, filenames, variables, methods, etc.    
+Except for Dockerfile which should have capital D.
+
+## Creating New Models
+1. Submit an issue with the model details (i.e. what approach does the model use? simple CNN?)
+2. Follow the Pull Request Process    
+    Note the following when creating your model:    
+    a. Follow the folder structure of sample_model_1    
+    b. Have 1 script that generates/exports the model to [onnx](https://onnx.ai) format.    
+    c. Create a Dockerfile which can run your model generation script    
+    d. Use the data from ./../data folder for your model training/testing 
+    e. Add a readme.md file to describe your model (strategy/limitations/test scores/etc)   
+
 
 ## Pull Request Process
 
@@ -11,6 +25,10 @@ Please note we have a code of conduct, please follow it in all your interactions
 2. Once your changes are ready, create a pull request with the following information:    
     a. Issue link where the pull request is associated to
     b. Summary of the changes
+    example: https://github.com/DataKind-SG/wpdx-watertech-classification-image/pull/2
+
+    [Reference on how to create a pull request from a fork.](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) 
+
 3. Send the pull request to the master branch (https://github.com/DataKind-SG/wpdx-watertech-classification-image).
 4. Add a comment in the associated Issue and ask @whatevergeek to review the pull request. Add a reference to the pull request link.
 5. Once everything is ok, your changes will be merged to the master branch.
