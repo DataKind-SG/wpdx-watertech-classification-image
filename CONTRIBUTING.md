@@ -9,10 +9,10 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 1. Fork a copy of the repo to your github account and make corresponding changes.
 2. Once your changes are ready, create a pull request with the following information:    
-    a. Issue Number where the PR is associated to
+    a. Issue link where the pull request is associated to
     b. Summary of the changes
 3. Send the pull request to the master branch (https://github.com/DataKind-SG/wpdx-watertech-classification-image).
-4. Add a comment in the associated Issue and ask @whatevergeek to review the pull request. Add a reference to the pull request number.
+4. Add a comment in the associated Issue and ask @whatevergeek to review the pull request. Add a reference to the pull request link.
 5. Once everything is ok, your changes will be merged to the master branch.
 
 
