@@ -17,4 +17,4 @@ Sample Label: PHE 6 Hand pump
 ### Data
 Complete dataset can be downloaded from [here](https://drive.google.com/open?id=1C61ZTKyXnuEKE72C-KwYbD5Jw4j5PcAP).
 
-Check CONTRIBUTING.md on how to contribute to the project.
+Check [contributing.md](./contributing.md) on how to contribute to the project.
