@@ -18,3 +18,6 @@ Sample Label: PHE 6 Hand pump
 Complete dataset can be downloaded from [here](https://drive.google.com/open?id=1C61ZTKyXnuEKE72C-KwYbD5Jw4j5PcAP).
 
 Check [contributing.md](./contributing.md) on how to contribute to the project.
+
+### Launch Binder
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DataKind-SG/wpdx-watertech-classification-image/master)
