@@ -21,3 +21,6 @@ Check [contributing.md](./contributing.md) on how to contribute to the project.
 
 ### Launch Binder
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DataKind-SG/wpdx-watertech-classification-image/master)
+
+### Chat
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/DataKind-SG/wpdx-watertech-classification-image)
