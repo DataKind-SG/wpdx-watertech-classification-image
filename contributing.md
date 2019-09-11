@@ -16,7 +16,8 @@ Except for Dockerfile which should have capital D.
     Follow the folder structure of [sample_model_1](https://github.com/DataKind-SG/wpdx-watertech-classification-image/tree/master/models/sample_model_1)   s
     b. Have 1 script that generates/exports the model to [onnx](https://onnx.ai) format.    
     c. Create a Dockerfile which can run your model generation script    
-    d. Use the data from ./../data folder for your model training/testing 
+    d. Use the data from ./../data/images folder for your model training/testing. You can find the labels as folder names under ./../data/images folder. We leave the distribution ratio (train/test) up to you for now. We'll standardize later.
+
     e. Add a readme.md file to describe your model (strategy/limitations/test scores/etc)   
 
 
