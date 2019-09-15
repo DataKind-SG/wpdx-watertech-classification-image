@@ -3,6 +3,7 @@ import requests   # downloading images
 import shutil     # downloading images
 import os   
 import uuid # generator for file names
+import numpy as np
 
 
 data = pd.read_csv("water_tech_image_links_cleaned.csv")
@@ -14,6 +15,10 @@ shutil.rmtree('../data/images')
 os.mkdir("../data/images")
 
 num_pics_per_class = 100
+
+classes = links.clean_water_tech.unique()
+classes = np.delete(classes, np.where((classes == 'NO_MAPPING') |
+                                      (pd.isnull(classes))))
 
 ###  Downloading images
 for x in links.clean_water_tech.unique():
@@ -27,7 +32,7 @@ for x in links.clean_water_tech.unique():
         r = requests.get(links_class.photo_lnk.iloc[tries], stream = True)
         tries += 1
         
-        if r.status_code == 200:
+        if ((r.status_code == 200) and (len(r.content) > 30000)):
 
             success += 1
             fileName = str(uuid.uuid4()) + ".jpg"
