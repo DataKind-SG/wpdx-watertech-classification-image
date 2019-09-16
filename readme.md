@@ -12,10 +12,9 @@ The following are the associated tasks:
 4. Create a sample app to demo the model to WPDX team.
 
 Sample Image: https://tinyurl.com/water-pump-image    
-Sample Label: PHE 6 Hand pump
-
+Sample Label: Hand Pump - Vergnet
 ### Data
-Complete dataset can be downloaded from [here](https://drive.google.com/open?id=1C61ZTKyXnuEKE72C-KwYbD5Jw4j5PcAP).
+Due to size constraints, we have uploaded only 100 images per class split into train and test data pre-downloaded for testing purposes. A bigger image dataset containing 1000 images per class (where available) split into train and test folders can be found in the link [here](https://archive.org/details/wpdx_imgs). Do perform your model training on the train data set and evaluate it with the test data set.
 
 Check [contributing.md](./contributing.md) on how to contribute to the project.
 

@@ -8,6 +8,11 @@ Please note we have a code of conduct, please follow it in all your interactions
 - Please use lowercase [snake_case](https://en.wikipedia.org/wiki/Snake_case) for folder names, filenames, variables, methods, etc.    
 Except for Dockerfile which should have capital D.
 
+## Downloading images
+- Download the images from the link [here](https://archive.org/details/wpdx_imgs). 
+- Train and test datasets are split into the respective folders
+- Train your models with the images in the train folder and evaluate the model with the images in the test folder
+
 ## Creating New Models
 1. Submit an issue with the model details (i.e. what approach does the model use? simple CNN?)
 2. Follow the Pull Request Process    
