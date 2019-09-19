@@ -38,10 +38,10 @@ folders = data_path_full.glob("*/*")
 detection_list = []
 
 for folder in folders:
-    folder = folder.resolve().glob("*.*")
-    for files in list(folder):
-        ratio = sum(get_human_ratio(folder, detector))
-        detection_list.append([str(folder), ratio])
+    files = folder.resolve().glob("*.*")
+    for file in list(files):
+        ratio = sum(get_human_ratio(file, detector))
+        detection_list.append([str(file), ratio])
 
 with open("detection_list.pkl", "wb") as f:
     pickle.dump(detection_list, f)
