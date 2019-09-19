@@ -1,4 +1,5 @@
-# Water Point Data Exchange Image Classification (gjunyi90's Model)
+# Water Point Data Exchange Image Classification 
+## (gjunyi90's Model)
 
 ### Data Exploration
 <Description to be added>
